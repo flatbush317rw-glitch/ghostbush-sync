@@ -1,0 +1,12 @@
+Sentinel change detected: Tue Oct 28 19:31:14 EDT 2025
+24a25
+> /data/data/com.termux/files/home/.ghostbush/.git/objects/0d/6a867f088712644e6657451191c4da85b20165
+25a27,28
+> /data/data/com.termux/files/home/.ghostbush/.git/objects/29/322982535f31be0c1e174c05670fb3d0f153e2
+> /data/data/com.termux/files/home/.ghostbush/.git/objects/36/acf4a9dd015150ca769822b2028060448a9dab
+29a33
+> /data/data/com.termux/files/home/.ghostbush/.git/objects/5b/2704fc8b00a6d822a734144b81a90f114456da
+34a39
+> /data/data/com.termux/files/home/.ghostbush/.git/objects/7e/2c5e0a8c55a980ae83727b039408b0f37150a4
+63a69
+> /data/data/com.termux/files/home/.ghostbush/vault/sentinel-1761694213.txt

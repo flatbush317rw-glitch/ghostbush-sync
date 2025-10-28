@@ -22,16 +22,21 @@
 /data/data/com.termux/files/home/.ghostbush/.git/logs/refs/heads/master
 /data/data/com.termux/files/home/.ghostbush/.git/logs/refs/remotes/origin/master
 /data/data/com.termux/files/home/.ghostbush/.git/objects/08/ef67c17575a15769dc650fd409ba7bda77b6a1
+/data/data/com.termux/files/home/.ghostbush/.git/objects/0d/6a867f088712644e6657451191c4da85b20165
 /data/data/com.termux/files/home/.ghostbush/.git/objects/16/65955832fc18a554729b5414f747a569e292c6
+/data/data/com.termux/files/home/.ghostbush/.git/objects/29/322982535f31be0c1e174c05670fb3d0f153e2
+/data/data/com.termux/files/home/.ghostbush/.git/objects/36/acf4a9dd015150ca769822b2028060448a9dab
 /data/data/com.termux/files/home/.ghostbush/.git/objects/42/ce997eac36c2d3e76496f3406e2e3adfc18b75
 /data/data/com.termux/files/home/.ghostbush/.git/objects/43/18e1522ebd161e289027ae5b2be7768718b839
 /data/data/com.termux/files/home/.ghostbush/.git/objects/48/33dc6219a474dbad3ac89e011793645b2d40db
 /data/data/com.termux/files/home/.ghostbush/.git/objects/48/6bb81b4ad5251430b31e7a4b115259d34b53db
+/data/data/com.termux/files/home/.ghostbush/.git/objects/5b/2704fc8b00a6d822a734144b81a90f114456da
 /data/data/com.termux/files/home/.ghostbush/.git/objects/5f/951bb1e8a03eee8f9fb45b9f957a371e739ae3
 /data/data/com.termux/files/home/.ghostbush/.git/objects/6d/92a5c93648c0765c7b8fe3990547285521633a
 /data/data/com.termux/files/home/.ghostbush/.git/objects/6e/7c6f4006e65e8798ac8e7546cb79373aebe402
 /data/data/com.termux/files/home/.ghostbush/.git/objects/72/f5761c96d26107c05aa33e7fe4fb0db197f332
 /data/data/com.termux/files/home/.ghostbush/.git/objects/7d/7a9f80717f60d6e00d855a1c217a4f5b47fc59
+/data/data/com.termux/files/home/.ghostbush/.git/objects/7e/2c5e0a8c55a980ae83727b039408b0f37150a4
 /data/data/com.termux/files/home/.ghostbush/.git/objects/7f/975dda6aaec5c59e9fbc28816972565cd425f3
 /data/data/com.termux/files/home/.ghostbush/.git/objects/83/e88e1a98094deff5bc0e593c7256dc40bccf99
 /data/data/com.termux/files/home/.ghostbush/.git/objects/88/96057af8d7ba3a57e14098432e0518f7d43da2
@@ -61,4 +66,5 @@
 /data/data/com.termux/files/home/.ghostbush/ghostbush-sync.sh
 /data/data/com.termux/files/home/.ghostbush/reels/alpha.sh
 /data/data/com.termux/files/home/.ghostbush/vault/sentinel-1761694153.txt
+/data/data/com.termux/files/home/.ghostbush/vault/sentinel-1761694213.txt
 /data/data/com.termux/files/home/.ghostbush/vault/test.txt
