@@ -21,5 +21,5 @@ done
 vault_file=~/.ghostbush/vault/stealth-$(date +%s).txt
 echo "stealth:$(date)" > "$vault_file"
 
-# Trigger GitHub sync if capsule changed
+# Trigger GitHub sync
 bash ~/.ghostbush/ghostbush-sync.sh &

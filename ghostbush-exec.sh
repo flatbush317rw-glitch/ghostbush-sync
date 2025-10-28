@@ -12,6 +12,9 @@ case "$cmd" in
   sync)
     bash ~/.ghostbush/ghostbush-sync.sh
     ;;
+  stealth)
+    bash ~/.ghostbush/ghostbush-stealth.sh
+    ;;
   inject:*)
     reel="${cmd#inject:}"
     bash ~/.ghostbush/reels/$reel.sh
