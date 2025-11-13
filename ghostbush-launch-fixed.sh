@@ -1,0 +1,1 @@
+#!/data/data/com.termux/files/usr/bin/bashcd ~/Ghostbush/core./ghostbush-sync.pyecho "[`date`] Ghostbush sync executed by Flatbush" >> ../logs/status.log
