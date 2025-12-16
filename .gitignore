@@ -1,0 +1,6 @@
+# Ignore raw ops/status logs
+logs/ops*.log
+logs/status*.log
+
+# Allow compressed archives
+!logs/*.gz
