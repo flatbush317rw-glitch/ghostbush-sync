@@ -4,5 +4,7 @@
   "relay_port": 2222,
   "auth_token": "ghostbush-override",
   "sync_interval": 10,
-  "log_path": "./logs/sync.log"
+  "log_path": "./logs/sync.log",
+  "repo": "C:\\Dev\\ghostbush-sync",
+  "sync_enabled": true
 }
