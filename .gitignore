@@ -4,3 +4,8 @@ logs/status*.log
 
 # Allow compressed archives
 !logs/*.gz
+
+
+# Added by cargo
+
+/target
