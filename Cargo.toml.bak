@@ -18,4 +18,3 @@ path = "src/main.rs"
 [[bin]]
 name = "barbershop"
 path = "src/main.rs"
-

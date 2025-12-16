@@ -1,0 +1,91 @@
+:root {
+  --bg: #0f1115;
+  --card: #171923;
+  --text: #e6e6e6;
+  --muted: #9aa0aa;
+  --accent: #3b82f6;
+  --accent-2: #22c55e;
+  --danger: #ef4444;
+  --border: #232635;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: var(--bg);
+  color: var(--text);
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  background: #0c0e12;
+}
+
+.tabs { display: flex; gap: 8px; }
+.tab {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tab.active { border-color: var(--accent); color: var(--accent); }
+
+main { padding: 20px; }
+.panel { display: none; }
+.panel.visible { display: block; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+label { display: block; margin-bottom: 12px; color: var(--muted); }
+input, button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0c0e12;
+  color: var(--text);
+}
+button { background: var(--accent); border-color: var(--accent); color: white; cursor: pointer; }
+button:hover { filter: brightness(1.1); }
+
+.list { list-style: none; padding-left: 0; }
+.list li {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.search { margin-bottom: 12px; }
+
+.status {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.feedback { margin-top: 10px; color: var(--accent-2); }
+.feedback.error { color: var(--danger); }
+
+.footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}

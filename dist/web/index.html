@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Barbershop App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Barbershop Dashboard</h1>
+    <nav class="tabs">
+      <button data-tab="appointments" class="tab active">Appointments</button>
+      <button data-tab="services" class="tab">Services</button>
+      <button data-tab="clients" class="tab">Clients</button>
+      <button data-tab="sync" class="tab">Sync status</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="appointments" class="panel visible">
+      <h2>Appointments</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Book appointment</h3>
+          <form id="appointment-form">
+            <label>Client name
+              <input type="text" name="client" required />
+            </label>
+            <label>Service
+              <input type="text" name="service" required />
+            </label>
+            <label>Date and time
+              <input type="datetime-local" name="datetime" required />
+            </label>
+            <button type="submit">Book</button>
+          </form>
+          <div id="appointment-feedback" class="feedback"></div>
+        </div>
+        <div class="card">
+          <h3>Upcoming</h3>
+          <ul id="appointments-list" class="list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="panel">
+      <h2>Services</h2>
+      <ul id="services-list" class="list"></ul>
+    </section>
+
+    <section id="clients" class="panel">
+      <h2>Clients</h2>
+      <div class="search">
+        <input id="client-search" type="text" placeholder="Search clients..." />
+      </div>
+      <ul id="clients-list" class="list"></ul>
+    </section>
+
+    <section id="sync" class="panel">
+      <h2>Sync status</h2>
+      <div id="sync-status" class="status"></div>
+      <button id="refresh-sync">Refresh</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Barbershop App • Ghostbush Arsenal</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

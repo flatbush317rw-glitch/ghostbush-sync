@@ -1,0 +1,8 @@
+{
+  "device_id": "ghost-phone-2",
+  "relayhost": "192.168.1.154",
+  "relay_port": 2222,
+  "auth_token": "ghostbush-override",
+  "sync_interval": 10,
+  "log_path": "./logs/sync.log"
+}
